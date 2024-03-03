@@ -1,0 +1,699 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+html.has-scroll-smooth {
+    overflow: hidden; }
+/* video css */
+
+#myVideo{
+    width: 100%;
+}
+
+/* navbar css */
+
+.logo-black{
+    margin-top: -3px;
+}
+
+/* Heading */
+
+.as-heading{
+    font-size: 15px;
+    background-color: rgb(197, 197, 197);
+    
+}
+.heading-box{
+    background-color: rgb(197, 197, 197);
+    position: sticky;
+}
+
+.air-details{
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+
+}
+.head-box{
+    padding-top: 8px;
+}
+.first{
+    font-size: 40px;
+    margin-bottom: -20px;
+    font-weight: 600;
+}
+.second{
+    font-size: 75px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+.third{
+    font-size: 75px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.head-text{
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 175px;
+}
+/* body */
+
+/* carousels */
+.row-class{
+    display: flex;
+    margin-left: 100px;
+}
+
+.col-class{
+    margin-left: 50px;
+}
+.highlights{
+    font-size: 50px;
+}
+.col-class-1{
+    margin-left: 350px;
+}
+.film{
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.col-class-2{
+    margin-left: 50px;
+}
+.event{
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+/* .highlights{
+    font-size: 50px;
+    margin-left: 150px;
+    font-weight: 650;
+}
+.film{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.event{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+} */
+
+.m-chip{
+    margin-top: 40px;
+    margin-left: 155px;
+    margin-bottom: 95px; 
+}
+
+.slide{
+    margin-bottom: 95px;
+}
+
+/* chip details */
+
+.performance{
+    background-color: black;
+}
+.chip-head{
+    margin-left: 110px;
+}
+.chip-header{
+    margin-top: 160px;
+    font-size: 65px;
+    color: white;
+}
+.chip-header-1, .chip-para{
+    margin-left: 220px;
+    color: white;
+}
+.chip-header-1{
+    font-size: 75px;
+    margin-top: 165px;
+}
+.chip-para{
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 120px;
+    color: rgb(182, 182, 182);
+}
+.bold{
+    font-weight: 600;
+    color: white;
+}
+
+/* /chips m1 */
+.m1-chips{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 210px;
+}
+.chip-img{
+    margin-bottom: 60px;
+}
+.chip-text1{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+    line-height: 35px;
+}
+.chip-text2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(44, 70, 241);
+    line-height: 35px;
+}
+.chip-text3{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(209, 19, 252);
+    line-height: 35px;
+}
+
+/* graphics performance */
+
+.graphics{
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.graphics-centre{
+    margin-top: 300px;
+    margin-left: 270px;
+    margin-bottom: 100px;
+    z-index: -5;
+}
+.graphics-1{
+    margin-top: -1450px;
+    z-index: 1;
+}
+.graphics-2{
+    margin-top: -1400px;
+    margin-left: 100px;
+}
+.graphics-3{
+    margin-top: -1450px;
+    margin-left: 800px;
+    z-index: 5;
+}
+.graphics-4{
+    margin-top: -900px;
+    margin-left: -50px;
+}
+.graphics-5{
+    margin-top: -900px;
+    margin-left: 750px;
+    z-index: 50;
+}
+.graphics-6{
+    margin-top: -450px;
+    margin-left: -240px;
+}
+.graphics-7{
+    margin-top: -550px;
+    margin-left: 900px;
+}
+.performance-line{
+    color: white;
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+
+/* performance details */
+.detail-text{
+    margin-top: 50px;
+}
+.gp-details{
+    font-size: 23px;
+    color: rgb(175, 175, 175);
+}
+.detail-bold{
+    color: white;
+    font-weight: 600;
+}
+.bold-big{
+    font-size: 60px;
+}
+.boost{
+    margin-top: 60px;
+    font-size: 23px;
+    color: rgb(175, 175, 175);
+    margin-bottom: 110px;
+}
+.bold-boost{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-top: 10px;
+}
+
+/* hardware acceleration */
+.hardware-acceleration{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 70px;
+}
+.detail-hard-acceleration{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(148, 148, 148);
+    margin-bottom: 100px;
+}
+.hardware-video{
+    margin-bottom: 60px;
+}
+.gp-details{
+    font-size: 22px;
+}
+
+/* port feature */
+
+.port-feature{
+    margin-top: 200px;
+}
+.port-head{
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.bold-black{
+    color: black;
+    font-weight: 600;
+}
+.port-details{
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(76, 76, 76);
+    margin-bottom: 150px;
+}
+.port-left{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.port-right{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.port-line{
+    color: black;
+    height: 25px;
+    margin-top: 150px;
+}
+.port-text{
+    font-size: 30px;
+    font-weight: 600;
+}
+.port-text-two{
+    font-size: 23px;
+    color: rgb(86, 86, 86);
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+.port-high{
+    color: black;
+    font-weight: 600;
+}
+.pre-footer{
+    margin-bottom: 60px;
+}
+
+
+/* footer */
+.footer{
+    background-color: rgb(235, 234, 234);
+}
+.footer-logo{
+    width: 17px;
+}
+.logo-row{
+    margin-bottom: 30px;
+}
+.sub-foot{
+    font-size: 15px;
+}
+.footer-ref{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+/* Media queries */
+
+@media (min-width:769px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+
+@media (max-width:425px){
+    .navbar-brand{
+        margin-left: 15px;
+    }
+    .logo-black{
+        display: none;
+    }
+    .collapse{
+        margin-left: 8px;
+    }
+    .first{
+        font-size: 25px;
+        margin-bottom: 8px;
+    }
+    .second{
+        font-size: 50px;
+    }
+    .third{
+        font-size: 50px;
+    }
+    .video-lap{
+        margin-top: -70px;
+    }
+    .row-class{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .col-class-1{
+        display: none;
+    }
+    .col-class-2{
+        display: none;
+    }
+    .head-text{
+        margin-bottom: 80px;
+    }
+    .highlights{
+        text-align: left;
+        margin-left: -10px;
+    }
+    .carousel-item{
+        margin-left: -115px;
+        margin-top: -10px;
+    }
+    /* black theme */
+    .chip-head{
+        margin-left: 0px;
+        width: 300px; 
+        margin-left: 40px;       
+    }
+    .chip-header-1{
+        margin-left: 0px;
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .chip-para{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+    .m1-chips{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    .graphics{
+        font-size: 40px;
+        width: 320px;
+        margin-left: -25px;
+    }
+    .graphics-centre{
+        width: 200px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    .graphics-1{
+        width: 200px;
+        margin-top: -550px;
+        margin-left: -40px;
+    }
+    .graphics-2{
+        width: 120px;
+        margin-top: -550px;
+        margin-left: 100px;
+    }
+    .graphics-3{
+        margin-left: 0px;
+        width: 150px;
+        margin-top: -650px;
+        margin-left: 180px;
+    }
+    .graphics-4{
+        width: 100px;
+        margin-top: -490px;
+        margin-left: -40px;
+    }
+    .graphics-5{
+        margin-top: -550px;
+        margin-left: 230px;
+        width: 110px;
+    }
+    .graphics-6{
+        width: 150px;
+        margin-left: -40px;
+    }
+    .graphics-7{
+        width: 100px;
+        margin-left: 240px;
+        margin-top: -500px;
+    }
+    .performance-line{
+        margin-top: -60px;
+    }
+    .g-perform{
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-text{
+        margin-left: 50px;
+        width: 320px;
+        text-align: left;
+    }
+    .gp-details{
+        font-size: 20px;
+        color: rgb(175, 175, 175);
+    }
+    .boost-text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .boost{
+        width: 320px;
+        margin-top: 30px;
+        line-height: 30px;
+        margin-bottom: 150px;
+    }
+    .hardware-acceleration{
+        font-size: 45px;
+        margin-left: -25px;
+    }
+    .detail-hard-acceleration{
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    .perform-vid{
+        margin-bottom: 80px;
+        width: 300px;
+        margin-left: -40px;
+    }
+    .hp-detail{
+        margin-left: -40px;
+        margin-top: -90px;
+    }
+    .hp-detail-1{
+        margin-left: -40px;
+    }
+    .port-head{
+        font-size:55px;
+        margin-left: -25px;
+        margin-top: -75px;
+    }
+    .port-details{
+        margin-left: -20px;
+        font-size: 20px;
+    }
+    .port-pic{
+        margin-bottom: -90px;
+    }
+    .port-text{
+        margin-top: 35px;
+    }
+    .port-def{
+        display: flex;
+        flex-direction: column;
+    }
+    .port-def-1{
+        margin-left: 40px;
+        width: 320px;
+        margin-bottom: -100px;
+    }
+    .pre-footer{
+        margin-left: 40px;
+        width: 320px;
+    }
+    .port-text-two{
+        font-size: 29px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+
+    /* footer */
+    .logo-row{
+        margin-left: -30px;
+        margin-bottom: -20px;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        margin-left: -30px;
+    }
+    .sub-foot{
+        font-size: 25px;
+        width: 320px;
+        margin-top: 55px;
+    }
+    .foot-width{
+        width: 320px;
+    }
+    .footer-ref{
+        font-size: 18px;
+        width: 320px;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+    .row-class{
+        display: flex;
+        margin-left: 0px;
+    }
+    .car{
+        margin-left: 0px;
+    }
+    .col-class{
+        width: 768px;
+    }
+    .highlights{
+        font-size: 50px;
+        width: 768px;
+        margin-left: 120px;
+    }
+    .col-class-1{
+        display: none;
+    }
+    .col-class-2{
+        display: none;
+    }
+    .carousel-item{
+        margin-left: -70px;
+        margin-top: -10px;
+    }
+    /* black */
+
+
+    .chip-head{
+        margin-left: 0px;
+        width: 768px; 
+        margin-left: 40px;       
+    }
+    .chip-header-1{
+        margin-left: 0px;
+        font-size: 35px;
+        margin-top: 70px;
+    }
+    .chip-para{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    /* chips */
+
+    .non-m1{
+        display: none;
+    }
+    .m1-chips{
+        width: 768px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -30px;
+    }
+    .m1-pro{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .chip-text1{
+        margin-bottom: 75px;
+    }
+
+    /* performance graphics */
+
+    .non-perform{
+        display: none;
+    }
+    .graphics{
+        margin-left: -20px;
+    }
+
+    .graphics-centre{
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .graphics-1{
+        width: 300px;
+        margin-top: -800px;
+        margin-left: -80px;
+    }
+    .graphics-2{
+        width: 320px;
+        margin-top: -850px;
+        margin-left: 200px;
+    }
+    .graphics-3{
+        margin-left: 0px;
+        width: 220px;
+        margin-top: -850px;
+        margin-left: 420px;
+    }
+    .graphics-4{
+        width: 200px;
+        margin-top: -590px;
+        margin-left: -70px;
+    }
+    .graphics-5{
+        margin-top: -650px;
+        margin-left: 450px;
+        width:190px;
+    }
+    .graphics-6{
+        width: 180px;
+        margin-left: -70px;
+    }
+    .graphics-7{
+        width: 200px;
+        margin-left: 440px;
+        margin-top: -480px;
+    }
+    .detail-text{
+        margin-left: -10px;
+    }
+} 
